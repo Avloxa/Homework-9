@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  width: 1280px;
+  height: 174px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 85px 80px 38px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-box {
+  display: flex;
+  column-gap: 47px;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  column-gap: 47px;
+  align-items: center;
+  font-size: 17px;
+  line-height: 20px;
+}
+.nav-list a {
+  color: #000000;
+}
+.help-btn {
+  padding: 12px 27px;
+  border: none;
+  background-color: #75bf7a;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.main-section {
+  width: 1280px;
+  height: 582px;
+  margin: auto;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.main {
+  width: 1280px;
+  margin: 0px auto 85px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.download-div {
+  width: 557px;
+}
+.download-div h1 {
+  width: 557px;
+  height: 189px;
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 800;
+  color: #000000;
+}
+.download-div p {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #9e9da2;
+  margin-top: 25px;
+}
+.download-btn {
+  padding: 13px 32px;
+  color: #ffffff;
+  background-color: #000000;
+  display: inline-flex;
+  border-radius: 5px;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  column-gap: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 62px;
+}
+
+.news {
+  width: 1280px;
+  height: 166px;
+  border-radius: 10px;
+  background-color: #75bf7a;
+  display: flex;
+  margin: 50px auto;
+  padding: 0px 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+.number-input {
+  width: 449px;
+  height: 67px;
+  padding-left: 35px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 4px;
+}
+.number-input::placeholder {
+  font: size 20px;
+  color: #dadada;
+}
+.number-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.APPLY-btn {
+  padding: 19px 52px;
+  color: #ffffff;
+  background-color: #000000;
+  display: inline-flex;
+  border-radius: 5px;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  column-gap: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 11px;
+}
+.news h3 {
+  font-size: 24px;
+  color: #ffffff;
+  width: 246px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.how-div {
+  width: 403px;
+  height: 51px;
+  margin: 128px auto 25px auto;
+  font-size: 46px;
+  line-height: 50px;
+  color: #000000;
+  font-weight: 800;
+}
+.how-div span {
+  color: #75bf7a;
+}
+.instal-div {
+  width: 620px;
+  height: 96px;
+  font-size: 23px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #9e9da2;
+  margin: auto;
+}
+.how-section {
+  width: 1280px;
+  margin: 99px auto 160px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.text-left {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.request-box {
+  width: 290px;
+  text-align: end;
+  margin-bottom: 84px;
+}
+.request-box h3 {
+  color: #000000;
+  font-size: 22px;
+  line-height: 50px;
+  font-weight: 800;
+}
+.request-box p {
+  color: #9e9da2;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.img-conteiner {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.dot {
+  display: flex;
+  flex-direction: column;
+}
+.phone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-right {
+  width: 400px;
+  height: 500px;
+}
+.text-right .request-box {
+  text-align: start;
+}
+.dot {
+  width: 65px;
+  height: 13px;
+  margin: 59px auto 87px auto;
+}
+.benefits-div {
+  width: 335px;
+  height: 51px;
+  font-size: 46px;
+  line-height: 50px;
+  color: #000000;
+  margin: 0px auto 52px auto;
+  font-weight: 800;
+}
+.benefits-div span {
+  color: #75bf7a;
+}
+.working-hours-conteiner {
+  width: 1060px;
+  height: 304px;
+  padding: 25px 110px 25px 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.hours-div {
+  display: flex;
+  align-items: center;
+}
+.one-div h3 {
+  width: 218px;
+  height: 65px;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #000000;
+  margin-left: 33px;
+}
+.one-div p {
+  font-size: 22px;
+  line-height: 23px;
+  font-weight: 500;
+  color: #9e9da2;
+  margin-top: 31px;
+  width: 345px;
+  height: 47px;
+}
+.dolar-conteiner {
+  width: 1060px;
+  height: 304px;
+  margin: 56px auto 56px auto;
+  padding: 39px 49px 39px 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ernings-div {
+  display: flex;
+  align-items: center;
+  column-gap: 23px;
+}
+.ernings-div h3 {
+  font-size: 34px;
+  line-height: 32px;
+  color: #000000;
+  font-weight: 600;
+}
+.driving {
+  width: 271px;
+  height: 47px;
+  font-size: 22px;
+  line-height: 23px;
+  font-weight: 500;
+  color: #9e9da2;
+  margin-top: 33px;
+}
+.top-footer {
+  width: 1480px;
+  height: 309px;
+  margin: 275px auto;
+}
+.tere-footer {
+  width: 1480px;
+  height: 253px;
+  padding: 70px 80px 0px 148px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.frend-div {
+  width: 206px;
+}
+.frend-div h4 {
+  color: #272042;
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.frend-div p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #8b8ba5;
+}
+.season {
+  margin-bottom: 15px;
+}
+.download-btn-footer {
+  padding: 8px 21px;
+  color: #ffffff;
+  background-color: #000000;
+  display: inline-flex;
+  border-radius: 4px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  column-gap: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.download-footer {
+  display: flex;
+  column-gap: 46px;
+}
+.all-div {
+  width: 590px;
+  height: 19px;
+  margin: auto;
+}
+.all-div p {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #75bf7a;
+  text-align: center;
+}
